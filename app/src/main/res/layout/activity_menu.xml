@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/aim">
+
+    <TextView
+        android:id="@+id/gameTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Balloon Frenzy"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Starting Level:"
+        android:textSize="20sp"
+        android:textColor="#ECF0F1"
+        android:layout_marginBottom="16dp"/>
+
+    <Spinner
+        android:id="@+id/levelSpinner"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#ECF0F1"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/startGameButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Start New Game"
+        android:background="@drawable/menu_button_background"
+        android:foreground="?attr/selectableItemBackground"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/guidelineButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="How to Play"
+        android:background="@drawable/menu_button_background"
+        android:foreground="?attr/selectableItemBackground"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/achievementsButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Achievements"
+        android:background="@drawable/menu_button_background"
+        android:foreground="?attr/selectableItemBackground"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/viewScoresButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="Score Records"
+        android:background="@drawable/menu_button_background"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

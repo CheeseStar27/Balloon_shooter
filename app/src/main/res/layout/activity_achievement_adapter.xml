@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#80000000">
+
+    <TextView
+        android:id="@+id/achievementTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:background="@drawable/overlay_gradient"
+        android:shadowRadius="3" />
+
+
+    <TextView
+        android:id="@+id/achievementDescriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#CCCCCC"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:background="@drawable/overlay_gradient"
+        android:shadowRadius="3"/>
+
+    <ProgressBar
+        android:id="@+id/achievementProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/achievementCompleteSymbol"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/complete_icon"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+</LinearLayout>

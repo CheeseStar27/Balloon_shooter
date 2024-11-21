@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guideline123">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Play"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:lineSpacingExtra="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="Game Rules:\n\n
+1. Each level lasts for 5 seconds\n\n
+2. Yellow Balloons:\n
+   • Worth 1 point each\n
+   • Multiple appear during the level\n
+   • Click them quickly!\n\n
+3. Red Balloons:\n
+   • Special balloon worth 2 points\n
+   • Appears only once per level\n
+   • Don't miss it!\n\n
+4. Levels:\n
+   • Level 1: 2x2 grid (4 balloons)\n
+   • Level 2: 3x3 grid (9 balloons)\n
+   • Level 3: 4x4 grid (16 balloons)\n
+   • Level 4: 5x5 grid (25 balloons)\n\n
+5. Score:\n
+   • Try to get the highest score!\n
+   • Top 25 scores are recorded\n
+   • Enter your name if you make the leaderboard"/>
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/menu_button_background"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="Back to Menu"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</ScrollView>

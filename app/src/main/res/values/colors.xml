@@ -1,0 +1,6 @@
+<resources>
+    <color name="topScore">#FFD700</color>
+    <color name="secondTopScore">#C0C0C0</color>
+    <color name="thirdTopScore">#CD7F32</color>
+    <color name="defaultBackground">#FFFFFF</color>
+</resources>

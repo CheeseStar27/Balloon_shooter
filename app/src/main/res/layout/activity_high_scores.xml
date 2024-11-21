@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/guideline">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mission Records"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <ListView
+        android:id="@+id/scoresList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#B3FFFFFF"
+        android:divider="#2C3E50"
+        android:dividerHeight="1dp" />
+
+
+    <TextView
+        android:id="@+id/emptyScoresText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No mission records yet."
+        android:textSize="16sp"
+        android:textColor="#ECF0F1"
+        android:visibility="gone"
+        android:gravity="center" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/newGameButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Game"
+            android:background="@drawable/menu_button_background"
+            android:foreground="?attr/selectableItemBackground"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/backToMenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to Home Page"
+            android:background="@drawable/menu_button_background"
+            android:foreground="?attr/selectableItemBackground"
+            android:textColor="#FFFFFF"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
